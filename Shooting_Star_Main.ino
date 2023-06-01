@@ -30,8 +30,8 @@ void setup() {
 
 void loop() {
   // A simple White Shooting Star
-    shootingStarAnimation(255, 255, 255, random(10, 60), random(5, 40), random(2000, 8000));
+  shootingStarAnimation(255, 255, 255, random(10, 60), random(5, 40), random(2000, 8000), 1);
 
   // Try changing the arguments. Uncomment this line of code to try out a fully randomized animation example:
-//    shootingStarAnimation(random(0, 255), random(0, 255), random(0, 255), random(10, 60), random(5, 40), random(2000, 8000));
+//    shootingStarAnimation(random(0, 255), random(0, 255), random(0, 255), random(10, 60), random(5, 40), random(2000, 8000), 1);
 }
